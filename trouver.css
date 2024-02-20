@@ -1,0 +1,33 @@
+body {
+  background-color: #F2F2F2;
+  color: #262526;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.bold-text {
+  font-weight: 700;
+}
+
+.btn-custom {
+  color: #F2F2F2;
+  background-color: #58162C;
+}
+
+.btn-custom:hover {
+  background-color: #CB6788;
+  transition: all 0.5ms ease-in-out;
+}
+
+.maps {
+  margin-bottom: 10%;
+}/*# sourceMappingURL=trouver.css.map */

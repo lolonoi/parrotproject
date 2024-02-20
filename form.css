@@ -1,0 +1,45 @@
+body {
+  background-color: #F2F2F2;
+  color: #262526;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+}
+
+h1 {
+  font-size: 1.9rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.bold-text {
+  font-weight: 700;
+}
+
+.btn-custom {
+  color: #F2F2F2;
+  background-color: #58162C;
+}
+
+.btn-custom:hover {
+  background-color: #CB6788;
+  transition: all 0.5ms ease-in-out;
+}
+
+a {
+  text-decoration: none;
+}
+
+.coordonnees {
+  flex-direction: column;
+  text-align: center;
+  border: 2px #262526 solid;
+  border-radius: 20px;
+  margin-top: 200px;
+}/*# sourceMappingURL=form.css.map */

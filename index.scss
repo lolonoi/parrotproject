@@ -1,0 +1,52 @@
+@import 'variables';
+
+// Utilisation des variables
+
+
+.navbar{
+    background-color: $primary-color;
+}
+
+footer {
+    background-color: $secondary-color;
+}
+
+.btn-primary {
+    background-color: $accent-color;
+    color: $light-color;
+}
+
+.btn-secondary {
+    background-color: $tertiary-color;
+    color: $light-color;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul{
+    list-style: none;
+}
+
+h1{
+    font-size: $font-big;
+}
+
+.coordonnees {
+    flex-direction: column;
+    text-align: center;
+    border: 2px $dark-color solid;
+    border-radius: 20px;
+    margin-top: 200px;
+
+}
+
+
+
+
+
+
+
+
+

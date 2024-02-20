@@ -1,0 +1,30 @@
+@import 'variables';
+
+
+
+ul{
+    list-style: none;
+}
+
+.navbar{
+    background-color: $primary-color;
+    color: $light-color;
+}
+.navbar-toggler{
+    position: absolute;
+    right:10px;
+}
+.carousel-caption{
+    color: $light-color;
+}
+
+
+.carousel-home{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+h1{
+    font-size: $font-big;
+}

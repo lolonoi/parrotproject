@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Voiture Garage Parrot</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container-fluid text-center">
+        <span>
+          <i class="fa-solid fa-phone"></i>
+          <a href="tel:+">+33 06 07 08 09 04</a>
+        </span>
+      </div>
+      <!-- Add your header content here, e.g., a navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <!-- Logo -->
+          <a class="navbar-brand" href="#">
+            <img src="./pictures/logoparrot.png" alt="Logo" height="150" />
+          </a>
+
+          <!-- Bouton de bascule pour les petits écrans -->
+          <button
+            class="navbar-toggler justify-content-end"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Menu -->
+          <div
+            class="collapse navbar-collapse justify-content-center"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nos Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./voiture.html"
+                  >Voitures d'Occasion</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Icône de connexion -->
+          <div>
+            <a href="#" class="nav-link">
+              <i class="bi bi-person-circle fs-3"></i>
+              <!-- Remplacer par l'icône souhaité -->
+            </a>
+          </div>
+        </div>
+      </nav>
+      <div id="carouselhome" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://images.pexels.com/photos/8985604/pexels-photo-8985604.jpeg?auto=compress&cs=tinysrgb&w=600"
+              class="d-block w-100"
+              alt="Carousel Image 1"
+            />
+            <div class="carousel-caption d-block">
+              <h2>Redonnez vie à votre voiture</h2>
+              <p>
+                Des experts en réparation de carrosserie pour restaurer l'éclat
+                d'origine de votre véhicule.
+              </p>
+              <button class="btn btn-cta">Estimez votre réparation</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images.pexels.com/photos/8985604/pexels-photo-8985604.jpeg?auto=compress&cs=tinysrgb&w=600"
+              class="d-block w-100"
+              alt="Carousel Image 2"
+            />
+            <div class="carousel-caption d-block">
+              <h2>Redonnez vie à votre voiture</h2>
+              <p>
+                Des experts en réparation de carrosserie pour restaurer l'éclat
+                d'origine de votre véhicule.
+              </p>
+              <button class="btn btn-cta">Estimez votre réparation</button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images.pexels.com/photos/8985604/pexels-photo-8985604.jpeg?auto=compress&cs=tinysrgb&w=600"
+              class="d-block w-100"
+              alt="Carousel Image 3"
+            />
+            <div class="carousel-caption d-block">
+              <h2>Redonnez vie à votre voiture</h2>
+              <p>
+                Des experts en réparation de carrosserie pour restaurer l'éclat
+                d'origine de votre véhicule.
+              </p>
+              <button class="btn btn-cta">Estimez votre réparation</button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-home">
+          <button
+            type="button"
+            data-bs-target="#carouselhome"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselhome"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselhome"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselhome"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselhome"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+    <div>
+      <h2>Qualité et Confiance</h2>
+      <p>
+        Bienvenue dans notre sélection exclusive de voitures d'occasion. Chaque
+        véhicule que nous proposons a été méticuleusement inspecté et certifé,
+        assurant non seulement la qualité mais aussi la tranquillité d'esprit.
+        Nous nous engageons à ofrir une expérience exceptionnelle, avec des
+        voitures prêtes à enrichir vos trajets quotidiens. Proftez de notre
+        garantie complète et d'un service après-vente réactif, conçus pour vous
+        accompagner à chaque kilomètre.
+      </p>
+    </div>
+    <div class="mt-5 m-0">
+      <h1>Voitures d'occasion</h1>
+      <div class="row align-items-center m-0">
+        <div class="col-md-3">
+          <div class="form-floating mb-3">
+            <select
+              class="form-select"
+              id="floatingSelectyears"
+              aria-label="Filtre par année"
+            >
+              <option value="0">Année</option>
+              <option value="2000">2000</option>
+              <option value="2005">2005</option>
+              <option value="2010">2010</option>
+              <option value="2015">2015</option>
+              <option value="2020">2020</option>
+              <option value="2024">2024</option>
+            </select>
+            <label for="floatingSelectyears">Filtre par année</label>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="form-floating mb-3">
+            <select
+              class="form-select"
+              id="floatingSelectkil"
+              aria-label="Filtre par kilométrage"
+            >
+              <option value="0">Kilométrage</option>
+              <option value="50000">50 000</option>
+              <option value="100000">100 000</option>
+              <option value="150000">150 000</option>
+              <option value="200000">+200 000</option>
+            </select>
+            <label for="floatingSelectkil">Filtre par kilométrage</label>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="form-floating mb-3">
+            <select
+              class="form-select"
+              id="floatingSelectprice"
+              aria-label="Filtre par prix"
+            >
+              <option value="0">Prix</option>
+              <option value="2000">2 000</option>
+              <option value="4000">4 000</option>
+              <option value="6000">6 000</option>
+              <option value="8000">8 000</option>
+              <option value="10000">+10 000</option>
+            </select>
+            <label for="floatingSelectprice">Filtre par prix</label>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <button type="button" class="btn btn-primary w-100">Filtrer</button>
+        </div>
+      </div>
+      <div class="mt-5">
+        <div class="row m-0">
+          <div class="col">
+            <div
+              class="carousel slide"
+              id="carouselExampleIndicators"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="3"
+                  aria-label="Slide 4"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="card h-100">
+                        <img
+                          src="https://via.placeholder.com/150"
+                          class="card-img-top"
+                          alt="Voiture d'occasion 1"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Voiture d'occasion 1</h5>
+                          <p class="card-text">
+                            Année : 2018, Kilométrage : 50 000 km, Prix : 6 000
+                            €
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card h-100">
+                        <img
+                          src="https://via.placeholder.com/150"
+                          class="card-img-top"
+                          alt="Voiture d'occasion 2"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Voiture d'occasion 2</h5>
+                          <p class="card-text">
+                            Année : 2020, Kilométrage : 30 000 km, Prix : 10 000
+                            €
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card h-100">
+                        <img
+                          src="https://via.placeholder.com/150"
+                          class="card-img-top"
+                          alt="Voiture d'occasion 3"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Voiture d'occasion 3</h5>
+                          <p class="card-text">
+                            Année : 2015, Kilométrage : 70 000 km, Prix : 8 000
+                            €
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="card h-100">
+                        <img
+                          src="https://via.placeholder.com/150"
+                          class="card-img-top"
+                          alt="Voiture d'occasion 4"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Voiture d'occasion 4</h5>
+                          <p class="card-text">
+                            Année : 2017, Kilométrage : 60 000 km, Prix : 9 000
+                            €
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card h-100">
+                        <img
+                          src="https://via.placeholder.com/150"
+                          class="card-img-top"
+                          alt="Voiture d'occasion 5"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Voiture d'occasion 5</h5>
+                          <p class="card-text">
+                            Année : 2021, Kilométrage : 15 000 km, Prix : 12 000
+                            €
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card h-100">
+                        <img
+                          src="https://via.placeholder.com/150"
+                          class="card-img-top"
+                          alt="Voiture d'occasion 6"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Voiture d'occasion 6</h5>
+                          <p class="card-text">
+                            Année : 2019, Kilométrage : 40 000 km, Prix : 11 000
+                            €
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <h2>Votre satisfaction Notre Priorité</h2>
+      <img class="d-block w-100" src="./pictures/carousel2.png" alt="" />
+      <div class="card-body">
+        <div class="d-flex align-items-center mb-3">
+          <i class="fas fa-check fa-2x me-3"></i>
+          <p class="mb-0">
+            Inspection Rigoureuse : Chaque voiture passe par une inspection
+            détaillée en 100 points pour garantir une qualité sans compromis.
+          </p>
+        </div>
+        <div class="d-flex align-items-center mb-3">
+          <i class="fas fa-shield-alt fa-2x me-3"></i>
+          <p class="mb-0">
+            Garantie Complète : Nous ofrons une garantie étendue sur chaque
+            voiture pour vous assurer tranquillité d'esprit et sécurité.
+          </p>
+        </div>
+        <div class="d-flex align-items-center">
+          <i class="fas fa-road fa-2x me-3"></i>
+          <p class="mb-0">
+            Assistance Routière : Votre sérénité est essentielle, c'est pourquoi
+            une assistance routière est disponible 24/7 avec chaque achat
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="mt-5">
+      <h1>Nos Clients Parlent pour Nous</h1>
+      <span>Joignez-vous à nos clients heureux</span>
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <p class="card-text">
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Sed auctor, magna vel congue laoreet, lectus eros congue
+                      velit, vel auctor lorem nisl vel nunc. Sed vel congue
+                      nunc. Sed vel congue nunc. Sed vel congue nunc."
+                    </p>
+                    <p class="card-text">
+                      <strong>- Client 1</strong>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <p class="card-text">
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Sed auctor, magna vel congue laoreet, lectus eros congue
+                      velit, vel auctor lorem nisl vel nunc. Sed vel congue
+                      nunc. Sed vel congue nunc. Sed vel congue nunc."
+                    </p>
+                    <p class="card-text">
+                      <strong>- Client 2</strong>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <p class="card-text">
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Sed auctor, magna vel congue laoreet, lectus eros congue
+                      velit, vel auctor lorem nisl vel nunc. Sed vel congue
+                      nunc. Sed vel congue nunc. Sed vel congue nunc."
+                    </p>
+                    <p class="card-text">
+                      <strong>- Client 3</strong>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <p class="card-text">
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Sed auctor, magna vel congue laoreet, lectus eros congue
+                      velit, vel auctor lorem nisl vel nunc. Sed vel congue
+                      nunc. Sed vel congue nunc. Sed vel congue nunc."
+                    </p>
+                    <p class="card-text">
+                      <strong>- Client 4</strong>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <p class="card-text">
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Sed auctor, magna vel congue laoreet, lectus eros congue
+                      velit, vel auctor lorem nisl vel nunc. Sed vel congue
+                      nunc. Sed vel congue nunc. Sed vel congue nunc."
+                    </p>
+                    <p class="card-text">
+                      <strong>- Client 5</strong>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card h-100">
+                  <div class="card-body">
+                    <p class="card-text">
+                      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Sed auctor, magna vel congue laoreet, lectus eros congue
+                      velit, vel auctor lorem nisl vel nunc. Sed vel congue
+                      nunc. Sed vel congue nunc. Sed vel congue nunc."
+                    </p>
+                    <p class="card-text">
+                      <strong>- Client 6</strong>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <button type="button" class="btn btn-primary mt-3 w-25">Voir plus</button>
+    </div>
+    <div>
+      <img class="d-block w-100" src="./pictures/carousel3.png" alt="" />
+      <p>
+        Trouvez la voiture de vos rêves dès aujourd'hui. Contactez-nous pour
+        plus d'informations ou pour planifer un essai.
+      </p>
+      <button>Planifez un essai</button>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <img src="./pictures/logoparrot.png" alt="logo" />
+          </div>
+          <div class="col-md-3">
+            <i class="fas fa-clock"></i>
+            <h5>Horraires d'ouvertures</h5>
+            <span>
+              Lun-Vendredi : 8h-12h / 14h-18h<br />
+              Sam : 8h-13h<br />
+              Dim: Fermé
+            </span>
+          </div>
+          <div class="col-md-3">
+            <h5>Lien Utiles</h5>
+            <ul>
+              <li><a href="#">Nos servicess</a></li>
+              <li><a href="#">Voitures d'occasion</a></li>
+              <li><a href="#">Mentions légales</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Add your footer content here -->
+      <div class="container-fluid bg-light py-3">
+        <div class="container text-center">
+          <p>&copy; 2024 Purple Agency. Tous droits réservés.</p>
+        </div>
+      </div>
+      <script
+        src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"
+      ></script>
+    </footer>
+  </body>
+</html>

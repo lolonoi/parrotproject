@@ -1,0 +1,12 @@
+@import 'variables';
+
+
+.coordonnees {
+    flex-direction: column;
+    text-align: center;
+    border: 2px $dark-color solid;
+    border-radius: 20px;
+    margin-top: 200px;
+
+}
+

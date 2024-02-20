@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accueil garage Parrot</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+   <?php  include 'header.php'; ?>
+    <main>
+      <!-- Add your main content here -->
+      <div class="container mt-5">
+        <div class="row reset-horizontal-margin">
+          <h1>Nos Services</h1>
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="https://images.pexels.com/photos/12555014/pexels-photo-12555014.jpeg?auto=compress&cs=tinysrgb&w=600"
+                class="card-img-top"
+                alt="Service 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Réparation Mécanique</h5>
+                <p class="card-text">Description du service 1.</p>
+                <a href="#" class="btn btn-primary">Découvrir</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="https://images.pexels.com/photos/12555014/pexels-photo-12555014.jpeg?auto=compress&cs=tinysrgb&w=600"
+                class="card-img-top"
+                alt="Service 2"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Réparation de Carrosserie</h5>
+                <p class="card-text">Description du service 2.</p>
+                <a href="#" class="btn btn-primary">Découvrir</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="https://images.pexels.com/photos/12555014/pexels-photo-12555014.jpeg?auto=compress&cs=tinysrgb&w=600"
+                class="card-img-top"
+                alt="Service 3"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Entretien Régulier</h5>
+                <p class="card-text">Description du service 3.</p>
+                <a href="#" class="btn btn-primary">Découvrir</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button type="button" class="btn btn-primary">En savoir plus</button>
+      <div class="mt-5 m-0">
+        <h1>À propos</h1>
+        <div class="row m-0">
+          <div class="col-md-6 col-sm-12">
+            <img
+              src="https://images.pexels.com/photos/190537/pexels-photo-190537.jpeg?auto=compress&cs=tinysrgb&w=600"
+              alt="À propos image"
+              class="img-fluid"
+            />
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <p>
+              Description de votre garage Parrot. Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit. Sed auctor, magna vel congue laoreet,
+              lectus eros congue velit, vel auctor lorem nisl vel nunc. Sed vel
+              congue nunc. Sed vel congue nunc. Sed vel congue nunc.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="mt-5 m-0">
+        <h1>Voitures d'occasion</h1>
+        <div class="row align-items-center m-0">
+          <div class="col-md-3">
+            <div class="form-floating mb-3">
+              <select
+                class="form-select"
+                id="floatingSelectyears"
+                aria-label="Filtre par année"
+              >
+                <option value="0">Année</option>
+                <option value="2000">2000</option>
+                <option value="2005">2005</option>
+                <option value="2010">2010</option>
+                <option value="2015">2015</option>
+                <option value="2020">2020</option>
+                <option value="2024">2024</option>
+              </select>
+              <label for="floatingSelectyears">Filtre par année</label>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="form-floating mb-3">
+              <select
+                class="form-select"
+                id="floatingSelectkil"
+                aria-label="Filtre par kilométrage"
+              >
+                <option value="0">Kilométrage</option>
+                <option value="50000">50 000</option>
+                <option value="100000">100 000</option>
+                <option value="150000">150 000</option>
+                <option value="200000">+200 000</option>
+              </select>
+              <label for="floatingSelectkil">Filtre par kilométrage</label>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="form-floating mb-3">
+              <select
+                class="form-select"
+                id="floatingSelectprice"
+                aria-label="Filtre par prix"
+              >
+                <option value="0">Prix</option>
+                <option value="2000">2 000</option>
+                <option value="4000">4 000</option>
+                <option value="6000">6 000</option>
+                <option value="8000">8 000</option>
+                <option value="10000">+10 000</option>
+              </select>
+              <label for="floatingSelectprice">Filtre par prix</label>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <button type="button" class="btn btn-primary w-100">Filtrer</button>
+          </div>
+        </div>
+        <div class="mt-5">
+          <div class="row m-0">
+            <div class="col">
+              <div
+                class="carousel slide"
+                id="carouselExampleIndicators"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-indicators">
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="0"
+                    class="active"
+                    aria-current="true"
+                    aria-label="Slide 1"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="1"
+                    aria-label="Slide 2"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="2"
+                    aria-label="Slide 3"
+                  ></button>
+                  <button
+                    type="button"
+                    data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide-to="3"
+                    aria-label="Slide 4"
+                  ></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="row">
+                      <div class="col-md-4">
+                        <div class="card h-100">
+                          <img
+                            src="https://via.placeholder.com/150"
+                            class="card-img-top"
+                            alt="Voiture d'occasion 1"
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title">Voiture d'occasion 1</h5>
+                            <p class="card-text">
+                              Année : 2018, Kilométrage : 50 000 km, Prix : 6
+                              000 €
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="card h-100">
+                          <img
+                            src="https://via.placeholder.com/150"
+                            class="card-img-top"
+                            alt="Voiture d'occasion 2"
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title">Voiture d'occasion 2</h5>
+                            <p class="card-text">
+                              Année : 2020, Kilométrage : 30 000 km, Prix : 10
+                              000 €
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="card h-100">
+                          <img
+                            src="https://via.placeholder.com/150"
+                            class="card-img-top"
+                            alt="Voiture d'occasion 3"
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title">Voiture d'occasion 3</h5>
+                            <p class="card-text">
+                              Année : 2015, Kilométrage : 70 000 km, Prix : 8
+                              000 €
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row">
+                      <div class="col-md-4">
+                        <div class="card h-100">
+                          <img
+                            src="https://via.placeholder.com/150"
+                            class="card-img-top"
+                            alt="Voiture d'occasion 4"
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title">Voiture d'occasion 4</h5>
+                            <p class="card-text">
+                              Année : 2017, Kilométrage : 60 000 km, Prix : 9
+                              000 €
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="card h-100">
+                          <img
+                            src="https://via.placeholder.com/150"
+                            class="card-img-top"
+                            alt="Voiture d'occasion 5"
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title">Voiture d'occasion 5</h5>
+                            <p class="card-text">
+                              Année : 2021, Kilométrage : 15 000 km, Prix : 12
+                              000 €
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <div class="card h-100">
+                          <img
+                            src="https://via.placeholder.com/150"
+                            class="card-img-top"
+                            alt="Voiture d'occasion 6"
+                          />
+                          <div class="card-body">
+                            <h5 class="card-title">Voiture d'occasion 6</h5>
+                            <p class="card-text">
+                              Année : 2019, Kilométrage : 40 000 km, Prix : 11
+                              000 €
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mt-5">
+        <h1>Nos Clients Parlent pour Nous</h1>
+        <span>Joignez-vous à nos clients heureux</span>
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card h-100">
+                    <div class="card-body">
+                      <p class="card-text">
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Sed auctor, magna vel congue laoreet, lectus eros
+                        congue velit, vel auctor lorem nisl vel nunc. Sed vel
+                        congue nunc. Sed vel congue nunc. Sed vel congue nunc."
+                      </p>
+                      <p class="card-text">
+                        <strong>- Client 1</strong>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card h-100">
+                    <div class="card-body">
+                      <p class="card-text">
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Sed auctor, magna vel congue laoreet, lectus eros
+                        congue velit, vel auctor lorem nisl vel nunc. Sed vel
+                        congue nunc. Sed vel congue nunc. Sed vel congue nunc."
+                      </p>
+                      <p class="card-text">
+                        <strong>- Client 2</strong>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card h-100">
+                    <div class="card-body">
+                      <p class="card-text">
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Sed auctor, magna vel congue laoreet, lectus eros
+                        congue velit, vel auctor lorem nisl vel nunc. Sed vel
+                        congue nunc. Sed vel congue nunc. Sed vel congue nunc."
+                      </p>
+                      <p class="card-text">
+                        <strong>- Client 3</strong>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card h-100">
+                    <div class="card-body">
+                      <p class="card-text">
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Sed auctor, magna vel congue laoreet, lectus eros
+                        congue velit, vel auctor lorem nisl vel nunc. Sed vel
+                        congue nunc. Sed vel congue nunc. Sed vel congue nunc."
+                      </p>
+                      <p class="card-text">
+                        <strong>- Client 4</strong>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card h-100">
+                    <div class="card-body">
+                      <p class="card-text">
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Sed auctor, magna vel congue laoreet, lectus eros
+                        congue velit, vel auctor lorem nisl vel nunc. Sed vel
+                        congue nunc. Sed vel congue nunc. Sed vel congue nunc."
+                      </p>
+                      <p class="card-text">
+                        <strong>- Client 5</strong>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card h-100">
+                    <div class="card-body">
+                      <p class="card-text">
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Sed auctor, magna vel congue laoreet, lectus eros
+                        congue velit, vel auctor lorem nisl vel nunc. Sed vel
+                        congue nunc. Sed vel congue nunc. Sed vel congue nunc."
+                      </p>
+                      <p class="card-text">
+                        <strong>- Client 6</strong>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <button type="button" class="btn btn-primary mt-3 w-25">
+          Voir plus
+        </button>
+      </div>
+      <h1>Contact</h1>
+      <form>
+        <div class="mb-3">
+          <label for="nom" class="form-label">Nom</label>
+          <input
+            type="text"
+            class="form-control"
+            id="nom"
+            placeholder="Parrot"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="garageparrot@gmail.com"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="phone" class="form-label">Tel</label>
+          <input
+            type="number"
+            class="form-control"
+            id="phone"
+            placeholder="+33 06 07 08 09 04"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea
+            class="form-control"
+            id="message"
+            rows="3"
+            placeholder="Message"
+          ></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Envoyer</button>
+      </form>
+      <div class="mt-5">
+        <div class="row align-items-center m-0">
+          <div class="col-md-4">
+            <i class="fas fa-phone"></i>
+            <span>+33 06 07 08 09 04</span>
+          </div>
+          <div class="col-md-4">
+            <i class="fas fa-envelope"></i>
+            <span>garageparrot31@gmail.com</span>
+          </div>
+          <div class="col-md-4">
+            <i class="fas fa-clock"></i>
+            <span>
+              Lun-Vendredi : 8h-12h / 14h-18h<br />
+              Sam : 8h-13h<br />
+              Dim: Fermé
+            </span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col">
+          <h1>Où Nous trouver</h1>
+          <span>Situé au cœur de Toulouse, à votre service.</span>
+          <div class="mt-3">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.484443848281!2d1.4458201158888884!3d43.60432617975263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a3e8b026e3e3c1%3A0x9c5c838d5e3f6d5c!2s1%20Rue%20Jean%20Jaur%C3%A8s%2C%2031000%20Toulouse!5e0!3m2!1sen!2sus!4v1681884584740!5m2!1sen!2sus"
+              width="90%"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container py-3">
+        <div class="row text-center align-items-center">
+          <div class="col-md-4">
+            <img src="./pictures/logoparrot.png" alt="logo" />
+          </div>
+          <div class="col-md-4">
+            <i class="fas fa-clock"></i>
+            <h5>Horraires d'ouvertures</h5>
+            <span>
+              Lun-Vendredi : 8h-12h / 14h-18h<br />
+              Sam : 8h-13h<br />
+              Dim: Fermé
+            </span>
+          </div>
+          <div class="col-md-4">
+            <h5>Lien Utiles</h5>
+            <ul>
+              <li><a href="#">Nos servicess</a></li>
+              <li><a href="#">Voitures d'occasion</a></li>
+              <li><a href="#">Mentions légales</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Add your footer content here -->
+      <div class="container-fluid py-3">
+        <div class="container text-center">
+          <p>&copy; 2024 Purple Agency. Tous droits réservés.</p>
+        </div>
+      </div>
+    </footer>
+    <!-- Add Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

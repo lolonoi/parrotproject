@@ -1,0 +1,76 @@
+body {
+  background-color: #F2F2F2;
+  color: #262526;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+}
+
+h1 {
+  font-size: 1.9rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.bold-text {
+  font-weight: 700;
+}
+
+.btn-custom {
+  color: #F2F2F2;
+  background-color: #58162C;
+}
+
+.btn-custom:hover {
+  background-color: #CB6788;
+  transition: all 0.5ms ease-in-out;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  background-color: #002A4C;
+}
+
+footer {
+  background-color: #95C0EE;
+}
+
+.btn-primary {
+  background-color: #CB6788;
+  color: #F2F2F2;
+}
+
+.btn-secondary {
+  background-color: #58162C;
+  color: #F2F2F2;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  font-size: 1.9rem;
+}
+
+.coordonnees {
+  flex-direction: column;
+  text-align: center;
+  border: 2px #262526 solid;
+  border-radius: 20px;
+  margin-top: 200px;
+}/*# sourceMappingURL=index.css.map */
